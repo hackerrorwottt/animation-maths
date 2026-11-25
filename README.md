@@ -11,12 +11,7 @@
 
 ```text
 M3_AnimationVideo_Eigenvectors_E25B070773/
-├── Shlok_Sharma_Video.mp4        # Final 1080p (1920x1080) 16:9 MP4 (~5:11) with Opening & Closing Frames
-├── Storyboard.pdf                # Exported 6-scene storyboard PDF (generated from Storyboard.md)
-├── Storyboard.md                 # Source markdown for the 6-scene storyboard table
-├── Narration_Script.md           # Timestamped word-for-word narration script (~140 wpm)
-├── Setup_and_Assembly_Guide.md   # Installation, voice-over, FFmpeg audio/music mixing guide
-├── Viva_Prep.md                  # 10 likely viva questions with model answers
+├── Shlok_Sharma_Video.mp4        # Final 1080p (1920x1080) 16:9 MP4 (~5:08) with Opening & Closing Frames
 ├── README.md                     # Concept summary, run instructions & references
 └── Code/
     ├── main.py                   # 6 Scene classes (Scene1_Hook ... Scene6_Summary) + FullVideo
@@ -50,7 +45,7 @@ $$A = \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}$$
 
 ## How to Run & Render
 
-1. Create a Python virtual environment and install Manim Community Edition (`v0.18+`), FFmpeg, and a LaTeX distribution (see [Setup_and_Assembly_Guide.md](Setup_and_Assembly_Guide.md)):
+1. Create a Python virtual environment and install Manim Community Edition (`v0.18+`), FFmpeg, and a LaTeX distribution:
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate

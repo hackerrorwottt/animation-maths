@@ -6,3 +6,10 @@ __pycache__/
 
 # Manim intermediate render cache & media output folder
 media/
+
+# Local-only notes & storyboard files excluded from GitHub repo
+Viva_Prep.md
+Narration_Script.md
+Setup_and_Assembly_Guide.md
+Storyboard.md
+Storyboard.pdf
