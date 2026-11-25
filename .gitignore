@@ -1,0 +1,8 @@
+# Virtual environment & caches
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Manim intermediate render cache & media output folder
+media/
